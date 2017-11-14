@@ -1,8 +1,6 @@
-const requestTodo = () => {
+export const fetchTodos = () => {
   $.ajax({
     mehtod: 'GET',
     url: '/api/todos'
-  }).then(
-
-  )
+  })
 }
