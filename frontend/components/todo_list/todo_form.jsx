@@ -22,7 +22,7 @@ class TodoForm extends React.Component {
     const todo = Object.assign({}, this.state, { id: uniqueId() });
     this.props.createTodo({ todo }).then(
       () => this.setState({ title: '', body: '' })
-    ); 
+    );
   }
 
   render() {

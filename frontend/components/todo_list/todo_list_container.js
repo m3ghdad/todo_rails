@@ -19,3 +19,9 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(TodoList);
+
+// const mapDispatchToProps = dispatch => ({
+//   requestTodos: () => dispatch(fetchTodos()),
+//   createTodo: todo => dispatch(createTodo(todo)),
+//   updateTodo: todo => dispatch(updateTodo(todo))
+// });
