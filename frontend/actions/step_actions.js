@@ -16,3 +16,4 @@ export const removeStep = step => ({
   type: REMOVE_STEP,
   step
 });
+ 
